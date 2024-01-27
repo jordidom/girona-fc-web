@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="shortcut icon" href="assets/img/icono/escudo.ico" type="image/vnd.microsoft.icon" />
+    <title>Plantilla</title>
+</head>
+<body style="background-color: #c1c1c1">
+    <!--ENCABEZADO-->
+    <header class="col-12">
+	    <img src="assets/img/logo/logo-girona-negro.png" alt="imagen logo mallorca" />	    
+	</header>
+
+    <!--MENÚ HORIZONTAL FIJO EN LA PARTE SUPERIOR-->
+    <div class="navbar">
+	    <ul>
+	  	    <li class="drop">
+			    <a href="index.html" class="dropbtn" ;>Girona FC</a>
+			    <div class="drop-content">
+		  		    <a href="#historia">Nuestra historia</a>
+		  		    <a href="#instalaciones">Instalaciones</a>
+		  		    <a href="#contacto">Contacto</a>
+			    </div>
+	  	    </li>
+	  	    <li class="drop">
+			    <a href="plantilla.html" class="dropbtn">Plantilla</a>
+			    <div class="drop-content">
+		  		    <a href="#entrenador">Entrenador</a>
+		  		    <a href="#porteros">Porteros</a>
+		  		    <a href="#defensas">Defensas</a>
+				    <a href="#mediocentros">Centrocampistas</a>
+				    <a href="#delanteros">Delanteros</a>
+			    </div>
+		  	</li>
+		  	<li class="drop">
+				<a href="horarioPartidos.html" class="dropbtn">Partidos</a>
+				<div class="drop-content">
+			  		<a href="horarioPartidos.html">Temporada</a>
+			  		<a href="clasificacion.html">Clasificación</a>
+				</div>
+		  	</li>
+		  	<li class="drop">
+			    <a href="#" class="dropbtn">FútbolBase</a>
+			    <div class="drop-content">
+			    	<a href="#">Mallorca B</a>
+			    	<a href="#">Juveniles</a>
+		  	    	<a href="#">Cadetes</a>
+		  	    	<a href="#">Infantiles</a>
+		  	    	<a href="#">Alevines</a>
+			    </div>
+		    </li>
+		    <li class="drop"><a href="#">Noticias</a></li>
+		    <div class="botnav">
+			    <a href="galeriaTienda.html" class="tienda">Tienda</a>
+			    <a href="formularioSocios.html" class="socio">Quiero ser abonado</a>
+		    </div>
+		</ul>
+	</div>
+
+	<!--MENÚ LATERAL DESPLEGABLE (en este archivo solo aparece cuando el tamaño de la pantalla se reduce)-->
+	<div class="menulat">
+		<input type="checkbox" id="menu-toggle" />
+		<label for="menu-toggle" id="menu-btn"><p>Botón</p></label>
+	  
+		<nav id="sidebar">
+			  <a href="index.html" class="first">Inicio</a>
+			  <a href="#historia">Nuestra Historia</a>
+			  <a href="#instalaciones">Instalaciones</a>
+			  <a href="#contacto">Contacto</a>
+			  <a href="#">Partidos</a>
+			  <a href="#">Plantilla</a>
+		</nav>
+	</div>
+
+    <!--DIVISOR DONDE SE ENCUENTRA EL CONTENIDO (dividido en diferentes divisores y cada uno dividido en div.galeria)-->
+	<div class="contenidoGJ">
+        <h2 id="entrenador">Entrenador</h2>
+        <div class="galeria">
+            <img src="assets/img/jugadores/entrenador-michel.png" alt="Michel" />
+            <div class="desc" style="background-color: black">
+                <p><strong>Nombre: </strong>Míchel Sánchez</p>
+                <p
+                    style="
+                    background-image: url(assets/img/banderas/spain.png);
+                    background-repeat: no-repeat;
+                    background-position: 10.5em;
+                    ">
+                <strong>Nacionalidad: </strong>España
+                </p>
+                <p><strong>Edad: </strong>48 años</p>
+            </div>
+        </div>
+        <div style="clear: both; padding-top: 3em">
+            <h2 id="porteros">Porteros</h2>
+            <div class="galeria">
+                <img src="assets/img/jugadores/portero-juanCarlos.png" alt="Juan Carlos" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Juan Carlos Martín</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 11em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>36 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/portero-gazzaniga.png" alt="Gazzaniga" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Paulo Gazzaniga</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/argentina.png);
+                        background-repeat: no-repeat;
+                        background-position: 12em;
+                        ">
+                        <strong>Nacionalidad: </strong>Argentina
+                    </p>
+                    <p><strong>Edad: </strong>32 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/portero-fuidias.png" alt="Fuidias" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Toni Fuidias</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 11em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>22 años</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both; padding-top: 3em">
+            <h2 id="defensas">Defensas</h2>
+            <div class="galeria">
+                <img src="assets/img/jugadores/defensa-miguel.png" alt="Miguel" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Miguel Gutiérrez</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 10.5em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>22 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/defensa-arnau.png" alt="Arnau" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Arnau Martínez</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 10.5em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>20 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/defensa-valery.png" alt="Valery" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Valery Fernández</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 10.5em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>24 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/defensa-juanpe.png" alt="JuanPe" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Juan Pedro Ramírez</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 12em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>32 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/defensa-blind.png" alt="Blind" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Daley Blind</p>
+                    <p
+                        style="
+                        background-image: url();
+                        background-repeat: no-repeat;
+                        background-position: 10.5em;
+                        ">
+                        <strong>Nacionalidad: </strong>Países Bajos
+                    </p>
+                    <p><strong>Edad: </strong>33 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/defensa-yanCouto.png" alt="Yan Couto" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Yan Couto</p>
+                    <p
+                        style="
+                        background-image: url();
+                        background-repeat: no-repeat;
+                        background-position: 10.5em;
+                        ">
+                        <strong>Nacionalidad: </strong>Brasil
+                    </p>
+                    <p><strong>Edad: </strong>21 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/defensa-eric.png" alt="Eric" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Eric García</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 11.5em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>23 años</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both; padding-top: 3em">
+            <h2 id="mediocentros">Centrocampistas</h2>
+            <div class="galeria">
+                <img src="assets/img/jugadores/centrocampista-davidLopez.png" alt="David López" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>David López</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 10.5em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>34 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/centrocampista-borjaGarcia.png" alt="Borja García" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Borja García</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 11em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>33 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/centrocampista-aleixGarcia.png" alt="Aleix García" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Aleix García</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 11em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>26 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/centrocampista-pabloTorre.png" alt="Pablo Torre" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Pablo Torre</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 11em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>20 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/centrocampista-toniVilla.png" alt="Toni Villa" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Toni Villa</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 11em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>29 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/centrocampista-herrera.png" alt="Yangel Herrera" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Yangel Herrera</p>
+                    <p
+                        style="
+                        background-image: url();
+                        background-repeat: no-repeat;
+                        background-position: 10.5em;
+                        ">
+                        <strong>Nacionalidad: </strong>Venezuela
+                    </p>
+                    <p><strong>Edad: </strong>26 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/centrocampista-jhonSolis.png" alt="Jhon Solis" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Jhon Solis</p>
+                    <p
+                        style="
+                        background-image: url();
+                        background-repeat: no-repeat;
+                        background-position: 12em;
+                        ">
+                        <strong>Nacionalidad: </strong>Colombia
+                    </p>
+                    <p><strong>Edad: </strong>19 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/centrocampista-ivanMartin.png" alt="Iván Martín" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Iván Martín</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 12em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>24 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/centrocampista-portu.png" alt="Portu" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Cristian Portu</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 12em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>31 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/centrocampista-selvi.png" alt="Selvi" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Selvi Clua</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 12em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>18 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/centrocampista-artero.png" alt="Artero" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Ricard Artero</p>
+                    <p
+                        style="
+                        background-image: url(assets/img/banderas/spain.png);
+                        background-repeat: no-repeat;
+                        background-position: 12em;
+                        ">
+                        <strong>Nacionalidad: </strong>España
+                    </p>
+                    <p><strong>Edad: </strong>20 años</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both; padding-top: 3em">
+            <h2 id="delanteros">Delanteros</h2>
+            <div class="galeria">
+                <img src="assets/img/jugadores/delantero-stuani.png" alt="Stuani" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Cristhian Stuani</p>
+                    <p
+                        style="
+                        background-image: url();
+                        background-repeat: no-repeat;
+                        background-position: 10.5em;
+                        ">
+                        <strong>Nacionalidad: </strong>Uruguay
+                    </p>
+                    <p><strong>Edad: </strong>37 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/delantero-tsygankov.png" alt="Tsygankov" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Viktor Tsygankov</p>
+                    <p
+                        style="
+                        background-image: url();
+                        background-repeat: no-repeat;
+                        background-position: 10.5em;
+                        ">
+                        <strong>Nacionalidad: </strong>Ucrania
+                    </p>
+                    <p><strong>Edad: </strong>26 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/delantero-dovbyk.png" alt="Dovbyk" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Artem Dovbyk</p>
+                    <p
+                        style="
+                        background-image: url();
+                        background-repeat: no-repeat;
+                        background-position: 11.5em;
+                        ">
+                        <strong>Nacionalidad: </strong>Ucrania
+                    </p>
+                    <p><strong>Edad: </strong>26 años</p>
+                </div>
+            </div>
+            <div class="galeria">
+                <img src="assets/img/jugadores/delantero-savio.png" alt="Sávio" />
+                <div class="desc" style="background-color: black">
+                    <p><strong>Nombre: </strong>Sávio Moreira</p>
+                    <p
+                        style="
+                        background-image: url();
+                        background-repeat: no-repeat;
+                        background-position: 10.5em;
+                        ">
+                        <strong>Nacionalidad: </strong>Brasil
+                    </p>
+                    <p><strong>Edad: </strong>19 años</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
